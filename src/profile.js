@@ -19,7 +19,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum.",
+    "I've graduated from the UC Davis Coding Bootcamp, where I've had an amazing experience coding all things Full-Stack, from JavaScript, Node.js, and React to back-end in mySQL and MongoDB. I'm super passioante about developing tools that make this world a better place for others. I'd be happy to hear from you.",
 };
 
 const skillsBar = [
