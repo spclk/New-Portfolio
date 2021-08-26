@@ -1,3 +1,5 @@
+// import mongodb from "./images/mongodb.svg";
+
 // Changes website animations
 const animation = {
   // switches off fade-up animation
@@ -59,8 +61,16 @@ const skillsBar = [
     faClass: "",
   },
   {
+    name: "npm",
+    faClass: "fab fa-npm",
+  },
+  {
+    name: "git",
+    faClass: "fab fa-git-alt",
+  },
+  {
     name: "React",
-    faClass: "fab fa-react",
+    faClass: "vscode-icons:file-type-mongo",
   },
 ];
 
