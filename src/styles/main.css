@@ -580,3 +580,12 @@ input:checked + .slider:before {
     margin-right: auto;
   }
 }
+.contact-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: ;
+  display: inline;
+  margin: 0;
+  padding: 0;
+}

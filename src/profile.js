@@ -1,12 +1,8 @@
 // import mongodb from "./images/mongodb.svg";
 
-// Changes website animations
 const animation = {
-  // switches off fade-up animation
   animate: true,
-  // animation playing duration
   duration: 750,
-  // if true, animation plays only once when element comes on screen
   once: false,
 };
 

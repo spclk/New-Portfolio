@@ -3,6 +3,15 @@ import Skills from '../layouts/Skills'
 import { skillsBar, } from '../../profile'
 
 const About = () => {
+    
+    const scrollTo = () => {
+        window.scrollTo({
+            top: 100000,
+            left: 0,
+            behavior: "smooth"
+        })
+    }
+
     return (
         <div id="about" className="effect2">
             <div data-aos="zoom-in-up" data-aos-once="true" className="row">
@@ -18,8 +27,8 @@ const About = () => {
                     I am a curious life-long student, with a never-ceasing drive to learn, grow, and mature. However, my aim in acquiring of knowledge and skills is not an end onto itself, but a means of using my privileged access to education and resources for the sake of blessing others. My purpose is to not be a type of a cul-de-sac where my work only ends in serving me, but instead to be a type of a highway that serves others. 
                     <br></br>
                     <br></br>
-                    Hence, I’m super passionate about developing tools that alleviate the challenges of life and help everyday people thrive. 
-I’m ready and open to contribute to your software. Feel free to Contact Me
+                    Hence, I’m super passionate about developing tools that alleviate the challenges of life and help everyday people thrive. I’m ready and open to contribute to your software. 
+                    Feel free to <button id="not-dark" onClick={scrollTo} alt="Contact Me" className="contact-button">Contact Me</button>
                 </p>
             </div>
             </div>
