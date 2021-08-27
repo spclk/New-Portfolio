@@ -11,9 +11,9 @@ const Project = ({id, name, about, url, skills}) => {
             <br/>
             { skills && <h3>{skills.map(skill => skill)}</h3> }
             <br/>
-            <div className="align-self-end">
-            <button type="button" className="btn btn-light"><i class="fab fa-github"></i></button> 
-            <button type="button" className="btn btn-light"><i class="fas fa-external-link-alt"></i></button>
+            <div className="d-flex justify-content-center">
+            <button type="button" className="btn btn-secondary"><i class="fab fa-github"></i></button> 
+            <button type="button" className="btn btn-secondary"><i class="fas fa-external-link-alt"></i></button>
             </div>
         </div>
 
