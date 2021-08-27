@@ -79,18 +79,21 @@ const projects = [
   {
     id: "project1",
     name: "ChargeBuddy",
+    about: "lorem ipsum",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/spclk/ChargeBuddy",
   },
   {
     id: "project2",
     name: "Projectimator",
+    about: "lorem ipsum",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/spclk/Projectimator",
   },
   {
     id: "project3",
     name: "Cryptelligent",
+    about: "lorem ipsum",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/spclk/Cryptelligent",
   },
