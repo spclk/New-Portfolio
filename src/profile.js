@@ -10,18 +10,9 @@ const animation = {
   once: false,
 };
 
-const header = {
-  name: "Konstantin",
-};
 const background = {
 
   type: "Particle",
-};
-
-const section2title = "About Me";
-const about = {
-  paragraph:
-    "I am a Web Developer with a background in social services. I've recently earned a Full-Stack Developer certificate from the UC Davis Coding Bootcamp, where I've gained skills in JavaScript, React, back-end databases, and all things MERN stack. I am a curious life-long student, with a never-ceasing drive to learn and grow. I'm super passioanate about developing tools that alleviate the challenges of life and help everyday people thrive.",
 };
 
 const skillsBar = [
@@ -113,14 +104,11 @@ const social = {
 
 export {
   animation,
-  header,
   background,
-  about,
   skillsBar,
   projects,
   contact,
   social,
-  section2title,
   section3Title,
   section5Title,
 };

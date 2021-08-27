@@ -1,6 +1,5 @@
 import React from 'react';
 import HeaderButton from '../layouts/HeaderButton'
-import { header } from '../../profile'
 
 const Header = () => {
 
@@ -30,8 +29,9 @@ const Header = () => {
     return (
         <div>
             <div className="Header">
-                <h1>{ `I'm ${header.name}` }</h1>
-            <p className="line-1 anim-typewriter">learn more about me... </p>
+                <h1>Hey there, I'm Konstantin</h1>
+            <p className="line-1 anim-typewriter">and I'm ready...</p>
+            <h2>Hey there, I'm Konstantin</h2>
             <label className="switch">
                 <input id="mode-switch" onClick={e => toggleDarkMode(e)} type="checkbox"/>
                 <span className="slider round"></span>
