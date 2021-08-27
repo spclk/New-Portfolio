@@ -187,6 +187,11 @@ button:focus {
   font-size: 1rem;
   margin-left: 3%;
 }
+.project-card button {
+  text-align: center;
+  font-size: 1rem;
+  margin-left: 3%;
+}
 .image-project {
   height: 300px;
   width: auto;
