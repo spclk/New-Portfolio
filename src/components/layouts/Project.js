@@ -9,6 +9,8 @@ const Project = ({id, name, about, url, skills}) => {
             <a title={url} className="project-name" rel="noopener noreferrer" target="_blank" href={url}><h2>{name}</h2></a>
             <h6>{about}</h6>
             { skills && <h3>{skills.map(skill => skill)}</h3> }
+            <button type="button" className="btn btn-light"><i class="fab fa-github"></i></button> 
+            <button type="button" className="btn btn-light"><i class="fas fa-external-link-alt"></i>LIVE</button>
         </div>
 
         

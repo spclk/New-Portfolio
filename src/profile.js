@@ -21,7 +21,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "I've graduated from the UC Davis Coding Bootcamp, where I've had an amazing experience coding all things Full-Stack, from JavaScript, Node.js, and React to back-end in mySQL and MongoDB. I'm super passioante about developing tools that make this world a better place for others. I'd be happy to hear from you.",
+    "I am a Web Developer with a background in social services. I've recently earned a Full-Stack Developer certificate from the UC Davis Coding Bootcamp, where I've gained skills in JavaScript, React, back-end databases, and all things MERN stack. I am a curious life-long student, with a never-ceasing drive to learn and grow. I'm super passioanate about developing tools that alleviate the challenges of life and help everyday people thrive.",
 };
 
 const skillsBar = [
@@ -100,7 +100,7 @@ const projects = [
   {
     id: "project4",
     name: "Weather Dashborad",
-    about: "Simple weather app that allows you to check for current weather conditions and a 5-day forecast. It retrieves weather data for cities using the OpenWeather APIs. Searching for multiple cities will give you a clickable search history list you can use to retrieve weather for those cities again.",
+    about: "imple weather app that allows you to check for current weather conditions and a 5-day forecast. It retrieves weather data for cities using the OpenWeather APIs. Searching for multiple cities will give you a clickable search history list you can use to retrieve weather for those cities again.",
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/spclk/weather-dashboard",
   },
