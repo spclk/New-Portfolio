@@ -97,6 +97,13 @@ const projects = [
     skills: ["HTML, CSS, JS"],
     url: "https://github.com/spclk/Cryptelligent",
   },
+  {
+    id: "project4",
+    name: "Weather Dashborad",
+    about: "lorem ipsum",
+    skills: ["HTML, CSS, JS"],
+    url: "https://github.com/spclk/weather-dashboard",
+  },
 ];
 
 const section5Title = "Gontact Me";
