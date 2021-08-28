@@ -25,7 +25,7 @@ button:focus {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  font-family: Lobster, sans-serif;
+  font-family: Raleway, sans-serif;
 }
 .Header h1 {
   color: #000;
@@ -115,13 +115,12 @@ button:focus {
 }
 .red-line {
   color: var(--primary-color);
-  font-weight: 500;
+  font-weight: 800;
 }
 .About-title-box {
   box-sizing: border-box;
   width: 50%;
   padding-bottom: 5px;
-  border-bottom: solid 2px var(--primary-color);
   margin-bottom: 15px;
 }
 .skill__square {
@@ -220,7 +219,6 @@ button:focus {
   box-sizing: border-box;
   width: 30%;
   padding-bottom: 5px;
-  border-bottom: solid 2px var(--primary-color);
   margin-bottom: 15px;
 }
 .pp-text {
@@ -249,10 +247,13 @@ button:focus {
   padding-top: 5%;
   padding-bottom: 15px;
   width: 30%;
-  border-bottom: 3px solid #000;
-  color: #000;
-  font-weight: 500;
+  color: var(--primary-color);
+  font-weight: 800 !important;
   text-align: center;
+  font-size: 2.5rem;
+}
+.git-head {
+  font-weight: 800 !important;
 }
 .git-cont {
   display: inline-block;
@@ -456,11 +457,11 @@ input:checked + .slider:before {
   white-space: nowrap;
   overflow: hidden;
   transform: translateY(-50%);
-  font-family: "Anonymous Pro", monospace !important;
+  font-family: "Raleway", monospace !important;
 }
 .anim-typewriter {
-  animation: typewriter 4s steps(27) 1s 1 normal both,
-    blinkTextCursor 0.5s steps(27) infinite normal;
+  animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 0.5s steps(40) infinite normal;
 }
 .parallax {
   background-image: url(../images/background.jpg);
@@ -470,7 +471,7 @@ input:checked + .slider:before {
     width: 0;
   }
   to {
-    width: 15em;
+    width: 35em;
   }
 }
 @keyframes blinkTextCursor {

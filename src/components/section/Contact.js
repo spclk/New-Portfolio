@@ -24,7 +24,7 @@ const Contact = () => {
                 </div>
                 <div className="col-12 col-sm-6 half">
                     <p className="lead">
-                        {contact.pitch}        
+                    I'd love to hear from you whether you have a question to ask, have a project to collaberate on, or just want to say Hi 👋 "       
                     </p>
                 <div className="d-flex justify-content-center align-items-center flex-column">
                 <div className="inline-block">
@@ -37,7 +37,7 @@ const Contact = () => {
             </div>
             </div>
         </div>
-            <p id="not-dark" className="Copy">2021 | <strong>{contact.copyright}</strong>.</p>
+            <p id="not-dark" className="Copy">2021 | <strong>Konstantin Alekseev</strong>.</p>
         </div>
     )
     

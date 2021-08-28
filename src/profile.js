@@ -84,11 +84,8 @@ const projects = [
   },
 ];
 
-const section5Title = "Gontact Me";
+const section5Title = "Contact Me";
 const contact = {
-  pitch:
-    "I'd love to hear from you whether you have a question to ask, have a project to collaberate on, or just want to say Hi 👋 ",
-  copyright: "Konstantin Alekseev",
   contactUrl: "",
 };
 

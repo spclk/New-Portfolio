@@ -29,9 +29,8 @@ const Header = () => {
     return (
         <div>
             <div className="Header">
-                <h1>Hey there, I'm Konstantin</h1>
-            <p className="line-1 anim-typewriter">and I'm ready...</p>
-            <h2>Hey there, I'm Konstantin</h2>
+                <h1>I'm Konstantin and I'm ready...</h1>
+            <p className="line-1 anim-typewriter">...ready to partner with you on the mission of changing lives</p>
             <label className="switch">
                 <input id="mode-switch" onClick={e => toggleDarkMode(e)} type="checkbox"/>
                 <span className="slider round"></span>
