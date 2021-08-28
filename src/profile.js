@@ -60,13 +60,15 @@ const projects = [
     about: "This app provides geoloaction to locate the user as well as charging stations for Electric Vehicles nearby. The user Registers their information with the application including their cars charging port and it is stored in a database. When they log back in that information and all nearby charging stations are displayed in a map on their homepage.",
     skills: ["Tech: React, Node.js, Express, MongoDB, Materialize, Mapbox API"],
     url: "https://github.com/spclk/ChargeBuddy",
+    deployed: "https://shielded-atoll-36831.herokuapp.com/",
   },
   {
     id: "project2",
     name: "Projectimator",
-    about: "Provides an online service for Homeowners to locate contractors that are able to work within a specified budget.",
+    about: "App that stores new homeowners and Contractors in a database in order to streamline the process for both parties.",
     skills: ["Tech: Handlebars.js, Node.js, Express, MySQL, Nodemailer"],
     url: "https://github.com/spclk/Projectimator",
+    deployed: "https://arcane-dusk-72745.herokuapp.com/",
   },
   {
     id: "project3",
@@ -74,6 +76,7 @@ const projects = [
     about: "App for new investors who wish to learn more about the world of cryptocurrency. CoinGecko and Bloomberg APIs are utilized to provide the cryptocurrency information.",
     skills: ["Tech: JS, jQuery, Materialize, CoinGecko API, Bloomberg API"],
     url: "https://github.com/spclk/Cryptelligent",
+    deployed: "https://spclk.github.io/Cryptelligent/",
   },
   {
     id: "project4",
@@ -81,6 +84,7 @@ const projects = [
     about: "imple weather app that allows you to check for current weather conditions and a 5-day forecast. It retrieves weather data for cities using the OpenWeather APIs. Searching for multiple cities will give you a clickable search history list you can use to retrieve weather for those cities again.",
     skills: ["Tech: HTML, CSS, JS, Materialize, Moment.js, OpenWeather API"],
     url: "https://github.com/spclk/weather-dashboard",
+    deployed: "https://spclk.github.io/weather-dashboard/",
   },
 ];
 

@@ -24,7 +24,8 @@ const About = () => {
                     My name is Konstantin Alekseev. I am a Web Developer with a background in social services. I've earned a Full-Stack Developer certificate from the UC Davis Coding Bootcamp, where I've gained skills in JavaScript, React, back-end databases, and all things MERN stack. 
                     <br></br>
                     <br></br>
-                    I am a curious life-long student, with a never-ceasing drive to learn, grow, and mature. However, my aim in acquiring of knowledge and skills is not an end onto itself, but a means of using my privileged access to education and resources to be a blessing to others. 
+                    I am a curious life-long student, with a never-ceasing drive to learn, grow, and mature. 
+                    However, my aim in acquiring of knowledge and skills is not an end onto itself, but a means of using my privileged access to education and resources to be a blessing to others. 
                     <br></br>
                     <br></br>
                     Hence, I’m super passionate about developing tools that alleviate the challenges of life and help everyday people thrive. I’m ready and open to contribute to your software. 
