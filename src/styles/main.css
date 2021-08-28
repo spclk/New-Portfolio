@@ -122,8 +122,8 @@ button:focus {
 .About-title-box {
   box-sizing: border-box;
   width: 50%;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
+  padding-bottom: 1px;
+  margin-bottom: 1px;
 }
 .skill__square {
   display: inline;
