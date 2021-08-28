@@ -27,12 +27,12 @@ button:focus {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  font-family: Raleway, sans-serif;
+  font-family: Montserrat, sans-serif;
 }
 .Header h1 {
   color: #000;
   text-align: center;
-  font-size: 5.5rem;
+  font-size: 3.5rem;
   position: absolute;
 }
 .Header p {
@@ -466,8 +466,8 @@ input:checked + .slider:before {
   font-family: "Raleway", monospace !important;
 }
 .anim-typewriter {
-  animation: typewriter 4s steps(40) 1s 1 normal both,
-    blinkTextCursor 0.5s steps(40) infinite normal;
+  animation: typewriter 4s steps(30) 1s 1 normal both,
+    blinkTextCursor 0.5s steps(30) infinite normal;
 }
 .parallax {
   background-image: url(../images/background.jpg);
@@ -477,7 +477,7 @@ input:checked + .slider:before {
     width: 0;
   }
   to {
-    width: 35em;
+    width: 27em;
   }
 }
 @keyframes blinkTextCursor {
