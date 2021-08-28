@@ -6,8 +6,8 @@ const Project = ({id, name, about, url, skills}) => {
             <div className="image-project">
                 <div className={`img-pro ${id}`}></div>
             </div>
-            <a title={url} className="project-name" rel="noopener noreferrer" target="_blank" href={url}><h2>{name}</h2></a>
-            <h6>{about}</h6>
+            <a title={url} className="project-name d-flex justify-content-center" rel="noopener noreferrer" target="_blank" href={url}><h2>{name}</h2></a>
+            <p>{about}</p>
             <br/>
             { skills && <h3>{skills.map(skill => skill)}</h3> }
             <br/>
