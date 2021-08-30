@@ -27,7 +27,7 @@ button:focus {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat, sans-serif !important;
 }
 .Header h1 {
   color: #000;
@@ -405,9 +405,7 @@ textarea:focus {
   left: 44.5%;
   bottom: 46%;
 }
-.Header p {
-  margin-top: 40px;
-}
+
 .switch input {
   opacity: 0;
   width: 0;
@@ -477,7 +475,7 @@ input:checked + .slider:before {
     width: 0;
   }
   to {
-    width: 27em;
+    width: 24em;
   }
 }
 @keyframes blinkTextCursor {
@@ -506,7 +504,7 @@ input:checked + .slider:before {
     font-weight: 300;
   }
   .Header h1 {
-    font-size: 2.5rem;
+    font-size: 2.0rem;
   }
   .line-1 {
     font-size: 80%;
