@@ -57,7 +57,7 @@ const projects = [
   {
     id: "project1",
     name: "ChargeBuddy",
-    about: "This app provides geoloaction to locate the user as well as charging stations for Electric Vehicles nearby. The user Registers their information with the application including their cars charging port and it is stored in a database. When they log back in that information and all nearby charging stations are displayed in a map on their homepage.",
+    about: "App that locates charging stations for Electric Vehicles",
     skills: ["Tech: React, Node.js, Express, MongoDB, Materialize, Mapbox API"],
     url: "https://github.com/spclk/ChargeBuddy",
     deployed: "https://shielded-atoll-36831.herokuapp.com/",
@@ -73,18 +73,18 @@ const projects = [
   {
     id: "project3",
     name: "Cryptelligent",
-    about: "App for new investors who wish to learn more about the world of cryptocurrency. CoinGecko and Bloomberg APIs are utilized to provide the cryptocurrency information.",
-    skills: ["Tech: JS, jQuery, Materialize, CoinGecko API, Bloomberg API"],
+    about: "App for new investors who wish to learn more about the world of cryptocurrency.",
+    skills: ["Tech: JS, Materialize, CoinGecko API, Bloomberg API"],
     url: "https://github.com/spclk/Cryptelligent",
     deployed: "https://spclk.github.io/Cryptelligent/",
   },
   {
     id: "project4",
-    name: "Weather Dashborad",
-    about: "imple weather app that allows you to check for current weather conditions and a 5-day forecast. It retrieves weather data for cities using the OpenWeather APIs. Searching for multiple cities will give you a clickable search history list you can use to retrieve weather for those cities again.",
-    skills: ["Tech: HTML, CSS, JS, Materialize, Moment.js, OpenWeather API"],
-    url: "https://github.com/spclk/weather-dashboard",
-    deployed: "https://spclk.github.io/weather-dashboard/",
+    name: "Employee Directory",
+    about: "A simple directory app designed for employees to view non-sensitive data about their co-workers.",
+    skills: ["Tech: JS, React, Node.js, Random User API"],
+    url: "https://github.com/spclk/Employee-Directory",
+    deployed: "https://spclk.github.io/Employee-Directory/",
   },
 ];
 
