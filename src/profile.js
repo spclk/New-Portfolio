@@ -57,7 +57,7 @@ const projects = [
   {
     id: "project1",
     name: "ChargeBuddy",
-    about: "App that locates charging stations for Electric Vehicles",
+    about: "App that uses geolocation to allow a registered user find nearby charging stations for Electric Vehicles.",
     skills: ["Tech: React, Node.js, Express, MongoDB, Materialize, Mapbox API"],
     url: "https://github.com/spclk/ChargeBuddy",
     deployed: "https://shielded-atoll-36831.herokuapp.com/",
@@ -65,7 +65,7 @@ const projects = [
   {
     id: "project2",
     name: "Projectimator",
-    about: "App that stores new homeowners and Contractors in a database in order to streamline the process for both parties.",
+    about: "Online service to connect homeowners with contractors for home project work.",
     skills: ["Tech: Handlebars.js, Node.js, Express, MySQL, Nodemailer"],
     url: "https://github.com/spclk/Projectimator",
     deployed: "https://arcane-dusk-72745.herokuapp.com/",

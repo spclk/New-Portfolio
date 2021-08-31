@@ -594,3 +594,16 @@ input:checked + .slider:before {
   margin: 0;
   padding: 0;
 }
+.ref {
+  display: inline;
+  margin: 15px 0 !important;
+  
+}
+.ref i {
+  font-size: 30px !important;
+  color: #777 !important;
+  height: 20px !important;
+}
+.ref i:hover {
+  color: #6a318b !important;
+}
