@@ -32,7 +32,7 @@ button:focus {
 .Header h1 {
   color: #000;
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 3.0rem;
   position: absolute;
 }
 .Header p {
@@ -149,7 +149,7 @@ button:focus {
 }
 .skill__square i:hover,
 .skill__square svg:hover {
-  color: #6a318b !important;
+  color: #6983a9 !important;
 }
 .third {
   width: 75%;
@@ -163,7 +163,7 @@ button:focus {
   padding: 20px;
   margin-top: 20px;
   /* margin-left: 30px; */
-  margin-right: 85px;
+  margin-right: 60px;
   box-shadow: rgba(17, 12, 46, 0.15) 0 48px 100px 0;
   border: 0.5px solid #eee;
 }
@@ -609,5 +609,6 @@ input:checked + .slider:before {
   height: 20px !important;
 }
 .ref i:hover {
-  color: #6a318b !important;
+    --hover-color:  #6983a9;
+    color: #e7bb41 !important;
 }
