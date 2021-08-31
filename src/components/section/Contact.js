@@ -24,14 +24,15 @@ const Contact = () => {
                 </div>
                 <div className="col-12 col-sm-6 half">
                     <p className="lead">
-                    I'd love to hear from you whether you have a question to ask, have a project to collaberate on, or just want to say Hi 👋 "       
+                    I'd love to hear from you whether you have a question to ask, have a project to collaberate on, or just want to say "Hi 👋 "       
                     </p>
                 <div className="d-flex justify-content-center align-items-center flex-column">
                 <div className="inline-block">
                     {social.linkedin && <a title="Visit Linkedin profile" rel="noopener noreferrer" target="_blank"  href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
-                    {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}<br/>
+                    {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}
+                    {social.resume && <a title="Download Resume" rel="noopener noreferrer" target="_blank" href={social.resume} download><i className="fas fa-file-download"></i></a>}
                 </div>
-                    {social.resume && <a title="Download Resume" href={social.resume} download><i className="fas fa-download"></i></a>}
+                    
                 </div>
                 </div>
             </div>
