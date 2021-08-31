@@ -96,6 +96,7 @@ const contact = {
 const social = {
   github: "https://github.com/spclk",
   linkedin: "https://www.linkedin.com/in/-konstantin/",
+  email: "mailto:konstantin1020@gmail.com",
   resume: "https://novoresume.com/",
 };
 
