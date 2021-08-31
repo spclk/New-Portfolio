@@ -358,8 +358,7 @@ textarea:focus {
   text-decoration-style: solid 3px;
   text-decoration-color: var(--primary-color);
 }
-.Copy {
-  color: #fff !important;
+.bottom {
   font-weight: 500;
   padding-top: 2%;
 }

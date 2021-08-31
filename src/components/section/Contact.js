@@ -32,13 +32,12 @@ const Contact = () => {
                     {social.github && <a title="Visit Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}
                     {social.resume && <a title="Download Resume" rel="noopener noreferrer" target="_blank" href={social.resume} download><i className="fas fa-file-download"></i></a>}
                 </div>
-                    
                 </div>
                 </div>
             </div>
             </div>
         </div>
-            <p id="not-dark" className="Copy">2021 | <strong>Konstantin Alekseev</strong>.</p>
+            <p id="not-dark" className="bottom">2021 | Konstantin Alekseev.</p>
         </div>
     )
     
