@@ -596,6 +596,8 @@ input:checked + .slider:before {
   display: inline;
   margin: 0;
   padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
 }
 .ref {
   display: inline;

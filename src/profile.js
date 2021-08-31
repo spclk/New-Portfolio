@@ -38,7 +38,7 @@ const skillsBar = [
     faClass: "fab fa-react",
   },
   {
-    name: "Database",
+    name: "Databases",
     faClass: "fas fa-database",
   },
   {
