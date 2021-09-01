@@ -65,7 +65,7 @@ const projects = [
   {
     id: "project2",
     name: "Projectimator",
-    about: "Online service to connect homeowners with contractors for home project work.",
+    about: "Online service to connect homeowners with contractors for house repair projects.",
     skills: ["Tech: Handlebars.js, Node.js, Express, MySQL, Nodemailer"],
     url: "https://github.com/spclk/Projectimator",
     deployed: "https://arcane-dusk-72745.herokuapp.com/",
@@ -74,15 +74,15 @@ const projects = [
     id: "project3",
     name: "Cryptelligent",
     about: "App for new investors who wish to learn more about the world of cryptocurrency.",
-    skills: ["Tech: JS, Materialize, CoinGecko API, Bloomberg API"],
+    skills: ["Tech: Materialize, CoinGecko API, Bloomberg API"],
     url: "https://github.com/spclk/Cryptelligent",
     deployed: "https://spclk.github.io/Cryptelligent/",
   },
   {
     id: "project4",
     name: "Employee Directory",
-    about: "A simple directory app designed for employees to view non-sensitive data about their co-workers.",
-    skills: ["Tech: JS, React, Node.js, Random User API"],
+    about: "A simple directory designed for employees to pull up co-workers' contacts.",
+    skills: ["Tech: React, Node.js, Random User API"],
     url: "https://github.com/spclk/Employee-Directory",
     deployed: "https://spclk.github.io/Employee-Directory/",
   },
@@ -90,7 +90,7 @@ const projects = [
 
 const section5Title = "Contact Me";
 const contact = {
-  contactUrl: "",
+  contactUrl: "https://formspree.io/f/mqkwwpda",
 };
 
 const social = {

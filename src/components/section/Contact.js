@@ -14,7 +14,7 @@ const Contact = () => {
                 <div className="container">
             <div className="git-cont row">
                 <div className="col-12 col-sm-6 half">
-                    <form action={contact.contactUrl ? contact.contactUrl : "https://formspree.io"} method={contact.contactUrl ? "POST" : "GET"}>
+                    <form action={contact.contactUrl ? contact.contactUrl : "https://formspree.io/f/mqkwwpda"} method={contact.contactUrl ? "POST" : "GET"}>
                         <input type="text" id="fname" name="firstname" placeholder="Your name" required></input>
                         <input type="mail" id="mailid" name="Email" placeholder="Email Address" required></input>
                         <input type="text" id="sub" name="Subject" placeholder="Subject" required></input>
@@ -30,7 +30,7 @@ const Contact = () => {
                 <div className="inline-block">
                     {social.linkedin && <a title="Linkedin profile" rel="noopener noreferrer" target="_blank"  href={social.linkedin}><i className="fab fa-linkedin"></i></a>}
                     {social.github && <a title="Github profile" rel="noopener noreferrer" target="_blank" href={social.github}><i className="fab fa-github"></i></a>}
-                    {social.email && <a title="Send e-mail" rel="noopener noreferrer" target="_blank" href={social.email}><i className="fas fa-envelope-square"></i></a>}
+                    {social.email && <a title="Send e-mail" href={social.email}><i className="fas fa-envelope-square"></i></a>}
                     {social.resume && <a title="Download Resume" rel="noopener noreferrer" target="_blank" href={social.resume} download><i className="fas fa-file-download"></i></a>}
                 </div>
                 </div>
