@@ -35,9 +35,9 @@ const Header = () => {
                 <input id="mode-switch" onClick={e => toggleDarkMode(e)} type="checkbox"/>
                 <span className="slider round"></span>
             </label>
-            <HeaderButton/>
+            <HeaderButton id="not-dark" onClick={scrollTo} alt="About Me"/>
             </div>
-            <img id="not-dark" onClick={scrollTo} alt="" title="Contact Me" className="gtp" src="profile.png"></img>
+            
         </div>
     )
     

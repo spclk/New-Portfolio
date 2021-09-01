@@ -1,5 +1,3 @@
-// import mongodb from "./images/mongodb.svg";
-
 const animation = {
   animate: true,
   duration: 750,
@@ -97,7 +95,7 @@ const social = {
   github: "https://github.com/spclk",
   linkedin: "https://www.linkedin.com/in/-konstantin/",
   email: "mailto:konstantin1020@gmail.com",
-  resume: "https://novoresume.com/",
+  resume: "https://drive.google.com/file/d/1oEKMkmEsjIm9RklGYjS656hddlTD64lF/view?usp=sharing",
 };
 
 export {
