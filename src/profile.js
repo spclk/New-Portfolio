@@ -55,7 +55,7 @@ const projects = [
   {
     id: "project1",
     name: "ChargeBuddy",
-    about: "App that uses geolocation to allow a registered user find nearby charging stations for Electric Vehicles.",
+    about: "App that uses geolocation to allow users to find nearby charging stations for Electric Vehicles.",
     skills: ["Tech: React, Node.js, Express, MongoDB, Materialize, Mapbox API"],
     url: "https://github.com/spclk/ChargeBuddy",
     deployed: "https://shielded-atoll-36831.herokuapp.com/",
