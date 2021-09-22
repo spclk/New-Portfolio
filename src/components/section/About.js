@@ -21,14 +21,12 @@ const About = () => {
                 <h1 id="About" className="red-line">About Me</h1>
                 </div>
                 <p className="lead about-text"> 
-                    My name is Konstantin Alekseev. I am a web developer with a background in social services. I've earned a Full-Stack Developer certificate from the UC Davis Coding Bootcamp, where I've gained skills in JavaScript, React, back-end databases, and all things MERN stack. 
+                    My name is Konstantin Alekseev. I am a software engineer with a background in social services. I've earned a Full-Stack Developer certificate from the UC Davis Coding Bootcamp, where I've gained skills in all things MERN stack and collaborated on diverse teams of developers in a fast-paced environment. 
                     <br></br>
                     <br></br>
                     I am a curious life-long student, with a never-ceasing drive to learn, grow, and mature. 
                     However, my aim in acquiring of knowledge and skills is not an end in itself, but a means of using my privileged access to education and resources to be a blessing to others. 
-                    <br></br>
-                    <br></br>
-                    Hence, I’m super passionate about developing tools that alleviate the challenges of life and help everyday people thrive. I’m ready and open to contribute to your software. 
+                    Hence, I’m super passionate about developing tools that alleviate the challenges of life and empower everyday people to thrive. 
                     Feel free to <button id="not-dark" onClick={scrollTo} alt="Contact Me" className="contact-button">Contact Me</button>
                 </p>
             </div>
