@@ -24,7 +24,7 @@ const Contact = () => {
                 </div>
                 <div className="col-12 col-sm-6 half">
                     <p className="lead">
-                    I'd love to hear from you whether you have a question, have a project to collaborate on, or just want to say "Hi👋 "       
+                    I'd love to hear from you if you have a project to collaborate on or just want to say "Hi 👋"       
                     </p>
                 <div className="d-flex justify-content-center align-items-center flex-column">
                 <div className="inline-block">
