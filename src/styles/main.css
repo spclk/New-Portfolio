@@ -113,11 +113,12 @@ button:focus {
 }
 .about-text {
   width: 80%;
-  /* padding: 2%; */
+  padding: 2%;
 }
 .red-line {
   color: var(--primary-color);
   font-weight: 800;
+  padding: 3%;
 }
 .About-title-box {
   box-sizing: border-box;
