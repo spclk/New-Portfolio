@@ -23,7 +23,7 @@
   https://imready.netlify.app
   
   ## Questions? 
-  Feel free to email me at: konstantin1020@gmail.com
+  Feel free to email me
 
 ![screenshot](./src/images/portfolio.png)
 ![screenshot](./src/images/portfolio-dark.png)

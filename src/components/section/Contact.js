@@ -38,7 +38,7 @@ const Contact = () => {
             </div>
             </div>
         </div>
-            <p id="not-dark" className="bottom">2021 | Konstantin Alekseev.</p>
+            <p id="not-dark" className="bottom">2021 | Konstantin.</p>
         </div>
     )
     
