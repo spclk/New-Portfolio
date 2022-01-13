@@ -95,7 +95,7 @@ const social = {
   github: "https://github.com/spclk",
   linkedin: "https://www.linkedin.com/in/-konstantin/",
   email: "mailto:",
-  resume: "",
+  resume: "https://www.linkedin.com/in/-konstantin/",
 };
 
 export {
