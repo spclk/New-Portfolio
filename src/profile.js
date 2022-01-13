@@ -94,8 +94,8 @@ const contact = {
 const social = {
   github: "https://github.com/spclk",
   linkedin: "https://www.linkedin.com/in/-konstantin/",
-  email: "mailto:konstantin1020@gmail.com",
-  resume: "https://drive.google.com/file/d/1Sdse3MUCMaYYZWZer9z64moHMlj-1Pwr/view?usp=sharing",
+  email: "mailto:",
+  resume: "",
 };
 
 export {
